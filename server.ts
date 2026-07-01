@@ -13,46 +13,46 @@ async function startServer() {
   // Mock Data
   const reviews = [
     {
-      id: "casino-royal",
-      name: "Casino Royal",
-      rating: 4.8,
-      image: "https://picsum.photos/seed/casino1/800/600",
+      id: "winbox-elite",
+      name: "Winbox Elite",
+      rating: 4.9,
+      image: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=800&auto=format&fit=crop",
       description: "The gold standard of luxury gaming with unparalleled service.",
-      established: "2015",
-      license: "Malta Gaming Authority",
+      established: "2020",
+      license: "Curacao Gaming",
       games: ["Slots", "Live Poker", "Roulette", "Baccarat"],
-      payoutSpeed: "Instant - 12 hours",
+      payoutSpeed: "Instant - 2 hours",
       pros: ["Elite VIP program", "High withdrawal limits", "24/7 concierge support"],
       cons: ["Strict KYC process", "Limited regional availability"],
-      review: "Casino Royal offers a truly sophisticated experience. From the moment you enter their digital lobby, the attention to detail is evident. Their selection of high-stakes tables is particularly impressive, catering to the most discerning players."
+      review: "Winbox Elite offers a truly sophisticated experience. From the moment you enter their digital lobby, the attention to detail is evident. Their selection of high-stakes tables is particularly impressive, catering to the most discerning players."
     },
     {
-      id: "azure-palace",
-      name: "Azure Palace",
-      rating: 4.5,
-      image: "https://picsum.photos/seed/casino2/800/600",
+      id: "winbox-pro",
+      name: "Winbox Pro",
+      rating: 4.8,
+      image: "https://images.unsplash.com/photo-1606167668584-78701c57f13d?q=80&w=800&auto=format&fit=crop",
       description: "A modern oasis of entertainment with a focus on innovative slots.",
-      established: "2019",
-      license: "Curacao",
+      established: "2021",
+      license: "Curacao Gaming",
       games: ["Slots", "Jackpots", "Live Dealer"],
-      payoutSpeed: "1-24 hours",
+      payoutSpeed: "1-2 hours",
       pros: ["Modern interface", "Crypto friendly", "Daily tournaments"],
       cons: ["Fewer table games", "Higher wagering requirements"],
-      review: "Azure Palace stands out with its sleek, user-friendly interface. It's a perfect choice for players who enjoy the latest video slots and a seamless mobile experience."
+      review: "Winbox Pro stands out with its sleek, user-friendly interface. It's a perfect choice for players who enjoy the latest video slots and a seamless mobile experience."
     },
     {
-      id: "golden-empire",
-      name: "Golden Empire",
-      rating: 4.2,
-      image: "https://picsum.photos/seed/casino3/800/600",
+      id: "winbox-classic",
+      name: "Winbox Classic",
+      rating: 4.7,
+      image: "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?q=80&w=800&auto=format&fit=crop",
       description: "Classic elegance meets modern technology in this established hub.",
-      established: "2010",
-      license: "UK Gambling Commission",
+      established: "2022",
+      license: "Curacao Gaming",
       games: ["Slots", "Sportsbook", "Live Casino"],
-      payoutSpeed: "2-3 days",
+      payoutSpeed: "1-3 hours",
       pros: ["Highly trusted brand", "Excellent sportsbook", "Large game library"],
       cons: ["Slower payouts", "Dated mobile app"],
-      review: "Golden Empire is a household name for a reason. Their reliability and extensive game library make them a safe bet for any entertainment enthusiast."
+      review: "Winbox Classic is a household name for a reason. Their reliability and extensive game library make them a safe bet for any entertainment enthusiast."
     }
   ];
 

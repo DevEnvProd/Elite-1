@@ -62,9 +62,9 @@ export const ReviewCard = ({ review, featured = false }: ReviewCardProps) => {
           >
             Read Review
           </Link>
-          <button className="bg-accent hover:bg-accent-hover text-primary px-4 py-2 rounded-lg text-sm font-bold transition-all flex items-center gap-2">
+          <a href="https://winbox666.com" target="_blank" rel="noopener noreferrer" className="bg-accent hover:bg-accent-hover text-primary px-4 py-2 rounded-lg text-sm font-bold transition-all flex items-center gap-2">
             Visit <ExternalLink size={14} />
-          </button>
+          </a>
         </div>
       </div>
     </motion.div>

@@ -58,9 +58,9 @@ export const SingleReview = () => {
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-4">{review.name}</h1>
               <p className="text-xl text-white/70 max-w-2xl">{review.description}</p>
             </div>
-            <button className="bg-accent hover:bg-accent-hover text-primary font-bold px-12 py-5 rounded-xl transition-all flex items-center gap-3 text-lg">
+            <a href="https://winbox666.com" target="_blank" rel="noopener noreferrer" className="bg-accent hover:bg-accent-hover text-primary font-bold px-12 py-5 rounded-xl transition-all flex items-center gap-3 text-lg">
               Visit Platform <ExternalLink size={20} />
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -141,9 +141,9 @@ export const SingleReview = () => {
             <p className="text-sm text-white/50 mb-8">
               Based on our rigorous 25-point inspection, {review.name} ranks among the top 5% of all platforms we've reviewed this year.
             </p>
-            <button className="w-full bg-accent hover:bg-accent-hover text-primary font-bold py-4 rounded-xl transition-all mb-4">
+            <a href="https://winbox666.com" target="_blank" rel="noopener noreferrer" className="block text-center w-full bg-accent hover:bg-accent-hover text-primary font-bold py-4 rounded-xl transition-all mb-4">
               Visit Platform
-            </button>
+            </a>
             <p className="text-[10px] text-center text-white/30 uppercase tracking-widest">
               Terms & Conditions Apply
             </p>

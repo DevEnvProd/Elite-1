@@ -17,13 +17,13 @@ export const Footer = () => {
             Your premier destination for luxury entertainment reviews, expert guides, and the latest industry insights.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="p-2 bg-white/5 hover:bg-accent hover:text-primary rounded-full transition-all">
+            <a href="https://winbox666.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 hover:bg-accent hover:text-primary rounded-full transition-all">
               <Twitter className="w-4 h-4" />
             </a>
-            <a href="#" className="p-2 bg-white/5 hover:bg-accent hover:text-primary rounded-full transition-all">
+            <a href="https://winbox666.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 hover:bg-accent hover:text-primary rounded-full transition-all">
               <Facebook className="w-4 h-4" />
             </a>
-            <a href="#" className="p-2 bg-white/5 hover:bg-accent hover:text-primary rounded-full transition-all">
+            <a href="https://winbox666.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 hover:bg-accent hover:text-primary rounded-full transition-all">
               <Instagram className="w-4 h-4" />
             </a>
           </div>
@@ -42,10 +42,10 @@ export const Footer = () => {
         <div>
           <h4 className="font-serif text-white font-bold mb-6">Support</h4>
           <ul className="space-y-4 text-sm text-white/50">
-            <li><a href="#" className="hover:text-accent transition-colors">Contact Support</a></li>
-            <li><a href="#" className="hover:text-accent transition-colors">Privacy Policy</a></li>
-            <li><a href="#" className="hover:text-accent transition-colors">Terms of Service</a></li>
-            <li><a href="#" className="hover:text-accent transition-colors">Responsible Gaming</a></li>
+            <li><Link to="/about" className="hover:text-accent transition-colors">Contact Support</Link></li>
+            <li><Link to="/about" className="hover:text-accent transition-colors">Privacy Policy</Link></li>
+            <li><Link to="/about" className="hover:text-accent transition-colors">Terms of Service</Link></li>
+            <li><Link to="/about" className="hover:text-accent transition-colors">Responsible Gaming</Link></li>
           </ul>
         </div>
 
